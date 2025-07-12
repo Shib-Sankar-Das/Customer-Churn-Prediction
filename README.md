@@ -16,20 +16,14 @@ This project implements an end-to-end customer churn prediction system that help
 
 ## 🚀 Quick Start
 
-### Option 1: Windows Batch File
-```bash
-run_app.bat
-```
-
-### Option 2: PowerShell Script  
-```bash
-.\run_app.ps1
-```
-
-### Option 3: Manual Launch
+### Step 1: Install Libraries 
 ```bash
 pip install -r requirements.txt
-streamlit run churn_prediction_app.py
+```
+
+### Step 2: Run Streamlit App  
+```bash
+streamlit run app.py
 ```
 
 **🌐 Access:** Open http://localhost:8501 in your browser
@@ -42,11 +36,6 @@ Customer_Churn_Prediction/
 ├── 🌐 churn_prediction_app.py           # Streamlit web application (3 pages)
 ├── 📋 requirements.txt                  # Python dependencies
 ├── 📖 README.md                         # This comprehensive guide
-├── 🎯 DEMO_GUIDE.md                     # Testing scenarios & instructions
-├── 📋 PROJECT_SUMMARY.md                # Detailed technical documentation
-├── 🧹 CLEANUP_SUMMARY.md                # Project cleanup log
-├── 🚀 run_app.bat                       # Windows batch launcher
-├── 🚀 run_app.ps1                       # PowerShell launcher
 ├── 📂 data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Training dataset
 └── 🤖 models/                           # Trained model artifacts
